@@ -49,7 +49,7 @@
 
 # 📋시스템아키텍처, 서비스흐름도, 시연영상
 
-## 시스템 아키텍처
+## 1. 시스템 아키텍처
 <details>
 <summary>시스템 아키텍처 펼쳐보기</summary>
   
@@ -57,7 +57,7 @@
 
 </details>
 
-## 서비스 흐름도
+## 2. 서비스 흐름도
 
 <details>
 <summary>서비스 흐름도 펼쳐보기</summary>
@@ -66,8 +66,9 @@
 
 </details>
 
-## 화면구성(시연영상)
-[클릭 시 영상이 재생됩니다.](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%EC%9C%8C%EB%A6%AC%EB%A5%BC%EC%B0%BE%EC%95%84%EB%9D%BC(%EA%B9%80%EC%9E%90%EC%98%81%ED%8C%80)+%EC%8B%9C%EC%97%B0+%EC%98%81%EC%83%81.mp4)
+## 3. 화면구성(시연영상)
+[클릭 시 영상이 재생됩니다.](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%EC%9C%8C%EB%A6%AC%EB%A5%BC%EC%B0%BE%EC%95%84%EB%9D%BC(%EA%B9%80%EC%9E%90%EC%98%81%ED%8C%80)+%EC%8B%9C%EC%97%B0+%EC%98%81%EC%83%81.mp4) <br>
+소리가 클 수 있으니 주의 해주세요!!
 
 # 💿핵심기능
 1. 사용자가 입력한 인상착의 정보를 DB에 저장하고 모델로 전송.
@@ -79,31 +80,25 @@
 7. 다른 사용자가 포스터 사진으로 위치 제보 가능.
 
 
-## 시스템 아키텍처
-![시스템 아키텍처](https://jsh-1.s3.ap-northeast-2.amazonaws.com/image.png)11
 
-## 서비스 흐름도
-![서비스 흐름도](https://jsh-1.s3.ap-northeast-2.amazonaws.com/image-1.png)
+# 🗂️산출문서
+[산출문서 바로가기](https://drive.google.com/drive/folders/1bOiFvosGpsRhw1ICjjSDMV4lGheyBWIu?usp=sharing)
 
-## 화면구성(시연영상)
-[시연 영상 보기](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%EC%9C%8C%EB%A6%AC%EB%A5%BC%EC%B0%BE%EC%95%84%EB%9D%BC(%EA%B9%80%EC%9E%90%EC%98%81%ED%8C%80)+%EC%8B%9C%EC%97%B0+%EC%98%81%EC%83%81.mp4)
 
-## 팀원역할
-![팀원역할](https://jsh-1.s3.ap-northeast-2.amazonaws.com/image-2.png)
 
-## 초기 세팅
-### 1. Git 설치 및 사용자 등록
-#### Git 설치
+# 🛠️초기 세팅
+## 1. Git 설치 및 사용자 등록
+### Git 설치
 1. [Git 공식 사이트](https://git-scm.com/download/win/)에서 Git을 다운로드하여 설치합니다.
 
-#### Git 사용자 등록
+### Git 사용자 등록
 1. 터미널을 열고 다음 명령어를 실행합니다.
     ```sh
     git config --global user.name "Your Name"
     git config --global user.email "your.email@example.com"
     ```
 
-#### 프로젝트 클론
+### 프로젝트 클론
 1. [VSCode](https://code.visualstudio.com/download) 또는 [다른 IDE](https://www.cursor.com/)를 실행합니다.
 2. 터미널 창을 엽니다.
 3. 다음 명령어를 실행하여 프로젝트를 클론합니다.
@@ -111,11 +106,11 @@
     git clone https://github.com/memorygreen/final_project_K18.git
     ```
 
-### 2. Front 실행 환경 구성
-#### 노드 설치하기
+## 2. Front 실행 환경 구성
+### 노드 설치하기
 1. [Node.js 공식 사이트](https://nodejs.org/en)에서 Node.js를 다운로드하여 설치합니다.
 
-#### 프로젝트 설정
+### 프로젝트 설정
 1. VSCode에서 `final_project_K18` 폴더를 엽니다.
 2. 터미널에서 다음 명령어를 실행합니다.
     ```sh
@@ -125,11 +120,11 @@
     ```
 3. `.env` 파일을 생성하여 보안 관련 코드를 작성합니다.
 
-### 3. Back 실행 환경 구성
-#### 파이썬 설치하기
+## 3. Back 실행 환경 구성
+### 파이썬 설치하기
 1. [Python 공식 사이트](https://www.python.org/downloads/)에서 Python을 다운로드하여 설치합니다.
 
-#### 프로젝트 설정
+### 프로젝트 설정
 1. VSCode에서 `final_project_K18` 폴더를 엽니다.
 2. `Ctrl + Shift + P`를 누르고 `>Python: Select Interpreter`를 선택합니다.
 3. 파이썬 버전을 선택합니다.
@@ -157,8 +152,8 @@
     - 문제가 해결되지 않으면 컴퓨터를 재부팅합니다.
 6. `.env` 파일을 생성하여 보안 관련 코드를 작성합니다.
 
-### 4. Model 실행 환경 구성
-#### 모델 설치
+## 4. Model 실행 환경 구성
+### 모델 설치
 1. [모델 다운로드](https://www.dropbox.com/scl/fo/e1l7kwn6qdnu91auiw13m/AIQCWlAnK3vJwwoc7pgUak4?rlkey=1e6pwpoa3x14nk6fmg8ewhvva&st=8ydslwcc&dl=0) 링크를 클릭해서 모델을 설치합니다.
 2. 모델을 설치한 후 프로젝트 폴더에 위치시킵니다.
 3. 터미널에서 다음 명령어를 실행합니다.
