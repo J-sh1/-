@@ -1,6 +1,34 @@
 
-### 2. 프로젝트 명: 윌리를찾아라👕👖<br>(PAR(Pedestrian-Attribute-Recognition) 기반 CCTV 영상 속 인상착의를 통한 실종자 찾기)
-- 사용자로부터 인상착의 정보를 받아 CCTV영상에서 인상착의 정보와 일치하는 객체를 찾아 실종자를 찾아주는 서비스
+# 📄프로젝트 정보
+
+## 1. 프로젝트 소개
+> 프로젝트 명 : 윌리를찾아라👕👖(PAR(Pedestrian-Attribute-Recognition) 기반 CCTV 영상 속 인상착의를 통한 실종자 찾기)
+>> 사용자로부터 인상착의 정보를 받아 CCTV영상에서 인상착의 정보와 일치하는 객체를 찾아 실종자를 찾아주는 서비스
+
+## 2. 제작기간
+> 24.05.22 ~ 24.06.20
+
+## 3. 참여인원
+> | 이름 | 역할 |
+> | --- | --- |
+> | 김자영 | PM / Back / Front |
+> | 박덕근 | Front / Model / Back |
+> | 안영빈 | Bacr |
+> | 이대길 | Back / Front |
+> | 조승혁 | Model / Back |
+
+![팀원역할](https://jsh-1.s3.ap-northeast-2.amazonaws.com/image-2.png)
+
+## 4. 내가 맡은 역할
+
+
+
+
+
+
+
+
+
 
 
 - 프로젝트 참여자
