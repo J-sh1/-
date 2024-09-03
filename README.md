@@ -13,7 +13,7 @@
 > | --- | --- |
 > | 김자영 | PM / Back / Front |
 > | 박덕근 | Front / Model / Back |
-> | 안영빈 | Bacr |
+> | 안영빈 | Back |
 > | 이대길 | Back / Front |
 > | 조승혁 | Model / Back |
 
@@ -23,34 +23,54 @@
 
 
 
+#  💻사용기술
+## 1. Front-end
+> ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+## 2. Back-end
+> ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+## 3. AI/Model
+> ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
+![CLIP](https://img.shields.io/badge/CLIP-00875A?style=for-the-badge&logo=ai&logoColor=white)
+![ViT-B/16](https://img.shields.io/badge/ViT--B%2F16-4A90E2?style=for-the-badge&logo=ai&logoColor=white)
+
+## 4. 기타
+> ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![AWS S3](https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=amazonaws&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+<br>
+
+
+# 📋시스템아키텍처, 서비스흐름도, 시연영상
+
+## 시스템 아키텍처
+<details>
+<summary>시스템 아키텍처 펼쳐보기</summary>
+  
+![시스템 아키텍처](https://jsh-1.s3.ap-northeast-2.amazonaws.com/image.png)
+
+</details>
+
+## 서비스 흐름도
+
+<details>
+<summary>서비스 흐름도 펼쳐보기</summary>
+
+![서비스 흐름도](https://jsh-1.s3.ap-northeast-2.amazonaws.com/image-1.png)
+
+</details>
+
+## 화면구성(시연영상)
+[클릭 시 영상이 재생됩니다.](https://jsh-1.s3.ap-northeast-2.amazonaws.com/%EC%9C%8C%EB%A6%AC%EB%A5%BC%EC%B0%BE%EC%95%84%EB%9D%BC(%EA%B9%80%EC%9E%90%EC%98%81%ED%8C%80)+%EC%8B%9C%EC%97%B0+%EC%98%81%EC%83%81.mp4)
 
 
 
-
-
-
-
-
-- 프로젝트 참여자
-  - 조승혁, 김자영, 박덕근, 이대길, 안영빈
-
-- 프로젝트 기간
-  - 24.05.22 ~ 24.06.20
-
-- [프로젝트 바로가기](https://github.com/J-sh1/final_k18)
-
-
-# 목차
-1. [서비스소개](#서비스소개)
-2. [주요기능](#주요기능)
-3. [시스템 아키텍처](#시스템-아키텍처)
-4. [서비스 흐름도](#서비스-흐름도)
-5. [화면구성(시연영상)](#화면구성시연영상)
-6. [팀원역할](#팀원역할)
-7. [초기 세팅](#초기-세팅)
-
-## 서비스소개
-사용자로부터 인상착의 정보를 받아 CCTV의 데이터에서 인상착의 정보와 일치한 객체를 찾아 실종자를 찾아주는 서비스
 
 ## 주요기능
 1. 사용자로부터 인상착의 정보를 라디오 버튼으로 입력을 받음
